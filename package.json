@@ -1,0 +1,15 @@
+{
+  "name": "Zeuss QA test automation",
+  "version": "1.0.0",
+  "description": "testes automotizados com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Marcos Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "mochawesome": "^7.1.3"
+  }
+}
