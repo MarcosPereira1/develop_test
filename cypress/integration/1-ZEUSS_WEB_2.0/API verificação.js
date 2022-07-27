@@ -11,10 +11,9 @@ describe('Teste de API', () => {
           //  expect(res.body[0]).to.have.property('description')
          //  expect(res.body[0].description).to.be.equal('sucess')
         }
-        
         )
     })
-
+    /*
     it.only('Fazer login do Marcos', () => {
         cy.request({
             method: 'POST',
@@ -28,9 +27,10 @@ describe('Teste de API', () => {
             expect(res.body).to.have.property('user')
             expect(res.body.user).to.be.equal('marcos.pereira@zeussapp.com.br')
         }
-        
         )
     })
+    */
+
 
 
 })
