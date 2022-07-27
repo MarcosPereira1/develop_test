@@ -1,5 +1,5 @@
 
-describe('TELA DE LOGIN / VERIFICAÇÃO DE USER VALIDO', () => {
+describe('TELA DE LOGIN / VERIFICAÇÃO DE USERS', () => {
 
     /* OBS: CERTIFIQUE-SE QUE EXISTE UM USUÁRIO ZEUSS COM EMAIL: marcos.pereira@zeussapp.com, senha: 123456 
     Ou alterar no codido para um usuário valido */

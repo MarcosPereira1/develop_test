@@ -2,12 +2,12 @@
 describe('TELA DE CADASTRO', () => {
 
     beforeEach(() => {
-      cy.visit('https://web.zeussapp.com.br/')
+      cy.visit('/')
     })
 
     it('Verifica mensagens de validação em cadastro', () => {
-        cy.get('.MuiPaper-root > :nth-child(2)').click();
-        cy.contains('li', 'Entrar').click();
+      //  cy.get('.MuiPaper-root > :nth-child(2)').click();
+        //cy.contains('li', 'Entrar').click();
         cy.contains('span', 'Criar minha Conta').click();
         cy.get('input[name="name"]').type('amaral');
         cy.get('input[name="email"]').type('amaral');
