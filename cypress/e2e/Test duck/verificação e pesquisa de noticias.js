@@ -1,6 +1,6 @@
 const { it } = require("mocha")
 
-describe('TELA DE LOGIN / VERIFICAÇÃO DE USERS', () => {
+describe('Tela Home duckduckgo', () => {
     
     beforeEach(() => {
         cy.visit('https://duckduckgo.com/')
