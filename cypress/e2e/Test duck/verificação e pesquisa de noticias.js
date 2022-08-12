@@ -9,13 +9,10 @@ describe('Tela Home duckduckgo', () => {
     it('busca de pesquisa Bitcoin ', () => {
         cy.get('#search_form_input_homepage')
         .should('be.visible')
-        .type('bitcoin{Enter}')
+        .type('Bitcoin{Enter}')
 
         cy.get('.results')
         .should('contain', 'bitcoin')
     })
-
-
-    
 
 })
